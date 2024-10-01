@@ -1,5 +1,5 @@
 # 1000X Faster Relational Deep Learning via Static GNNs and Tabular Distillation
-## Official Source Code for ICLR 2024
+## Official Source Code for ICLR 2025
 
 This repository is organized into the following sections:
 
