@@ -1,4 +1,4 @@
-from nn.model import FastRDL, evaluate, train
+from nn.model import LightRDL, evaluate, train
 from preprocessing.utils import load_graphs
 from torch_geometric.loader import DataLoader
 import torch
@@ -56,7 +56,7 @@ def main():
     # Initialize the model
     DIM_EMB = dataset_train[0][args.target_table].x.shape[1]
 
-    model = FastRDL(dataset_train[0].metadata(), 
+    model = LightRDL(dataset_train[0].metadata(), 
                     hidden_channels=args.hidden_channels, 
                     out_channels=1,
                     num_layers=args.num_layers, 

@@ -6,7 +6,7 @@ import os
 import numpy as np
 
 
-class FastRDL(torch.nn.Module):
+class LightRDL(torch.nn.Module):
     def __init__(self, metadata, hidden_channels, out_channels, num_layers,dropout_prob=0.3,DIM_EMB=1,pk=None):
         super().__init__()
         self.convs = torch.nn.ModuleList()
