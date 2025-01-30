@@ -9,7 +9,7 @@ import argparse
 
 def main():
     # Create the parser
-    parser = argparse.ArgumentParser(description="Official Code for ICLR submission TRAIN model")
+    parser = argparse.ArgumentParser(description="Official Code for ICML submission TRAIN model")
 
     # Add arguments
     parser.add_argument('--dataset', type=str, help="rel-bench dataset name", default="rel-f1")
