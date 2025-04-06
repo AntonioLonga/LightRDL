@@ -1,5 +1,5 @@
 # Boosting Relational Deep Learning with Pretrained Tabular Models
-## Official Source Code for ICML 2025
+## Official Source Code for the paper "Boosting Relational Deep Learning with Pretrained Tabular Models"
 
 This repository is organized into the following sections:
 
